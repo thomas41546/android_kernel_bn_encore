@@ -36,7 +36,7 @@ struct omap_opp_def omap36xx_opp_def_list_shared[15];  /*shared*/
 #define OMAP3430_VDD_MPU_OPP2_UV		1075000
 #define OMAP3430_VDD_MPU_OPP3_UV		1200000
 #define OMAP3430_VDD_MPU_OPP4_UV		1270000
-#define OMAP3430_VDD_MPU_OPP5_UV		1350000
+#define OMAP3430_VDD_MPU_OPP5_UV		1400000
 
 struct omap_volt_data omap34xx_vddmpu_volt_data[] = {
 	VOLT_DATA_DEFINE(OMAP3430_VDD_MPU_OPP1_UV, 0, OMAP343X_CONTROL_FUSE_OPP1_VDD1, 0xf4, 0x0c, OMAP_ABB_NONE),
@@ -86,7 +86,7 @@ struct omap_vdd_dep_info omap34xx_vddmpu_dep_info[] = {
 #define OMAP3630_VDD_MPU_OPP100_UV		1200000
 #define OMAP3630_VDD_MPU_OPP120_UV		1325000
 #define OMAP3630_VDD_MPU_OPP130_UV		1350000
-#define OMAP3630_VDD_MPU_OPP1G_UV		1375000
+#define OMAP3630_VDD_MPU_OPP1G_UV		1400000
 
 /* Amount in uV to add to SmartReflex-calculated voltages as a safety margin */
 #define OMAP3630_SR_MPU_DEFAULT_MARGIN		37500
